@@ -1,0 +1,35 @@
+# ==========================================
+# GitIgnore for N8RO Kinematic Plugin
+# ==========================================
+
+# CMake build directories
+/build/
+/build_x64/
+/CMakeSettings.json
+/CMakeUserPresets.json
+
+# Visual Studio files
+.vs/
+*.sln.docstates
+*.suo
+*.user
+*.filters
+*.aps
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+
+# Intermediate build folders
+x64/
+Release/
+Debug/
+ipch/
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
